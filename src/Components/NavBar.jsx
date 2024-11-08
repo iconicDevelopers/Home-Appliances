@@ -90,29 +90,41 @@ const Navbar = () => {
         <div className="md:hidden bg-gray-800 text-white shadow-lg animate-slide-in">
           <Link
             to="/"
-            className="block px-4 py-3 hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
+            className="block px-4 py-3 bg-gray-800 text-white hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             Home
           </Link>
+
           <Link
             to="/services"
-            className="block px-4 py-3 hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
+            className="block px-4 py-3 bg-gray-800 text-white hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
             onClick={() => setIsOpen(false)}
           >
             Services
           </Link>
+
           <Link
-            to="/about"
+            to="#about-us"
             className="block px-4 py-3 hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
-            onClick={() => setIsOpen(false)}
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector("#about-us").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
           >
             About Us
           </Link>
           <Link
-            to="/contact"
+            to="#contact-us"
             className="block px-4 py-3 hover:bg-yellow-400 hover:text-gray-800 transition-colors duration-200"
-            onClick={() => setIsOpen(false)}
+            onClick={(e) => {
+              e.preventDefault();
+              document.querySelector("#contact-us").scrollIntoView({
+                behavior: "smooth",
+              });
+            }}
           >
             Contact Us
           </Link>
