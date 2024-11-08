@@ -1,4 +1,3 @@
-import React from "react";
 import { FaPhone } from "react-icons/fa";
 import { useInView } from "react-intersection-observer";
 import service from "../../assets/service.jpg";
