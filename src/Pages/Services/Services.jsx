@@ -14,6 +14,7 @@ import purifier from "../../assets/services/purifier.jpg";
 import referegirater from "../../assets/services/refregirater.webp";
 import washingmachine from "../../assets/services/washingmachine.webp";
 import waterHeater from "../../assets/services/heater.webp";
+import { Link } from "react-router-dom";
 
 const Services = () => {
   const services = [
@@ -61,7 +62,13 @@ const Services = () => {
             the solution.
           </p>
           <div className="flex items-center space-x-4">
-            <p className="flex items-center mb-3  font-bold">
+            <Link
+              to="/services"
+              className="bg-orange-500 text-white font-semibold py-2 px-4 rounded hover:bg-orange-600 transition"
+            >
+              Our Solutions
+            </Link>
+            <p className="flex items-center font-bold">
               <a href="tel:+919480012696" className="flex items-center">
                 <FaPhone className="text-orange-500 mr-3 " />
                 <span className="hover:text-orange-500"> +91 9480012696</span>

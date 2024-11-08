@@ -7,11 +7,11 @@ import coperpiping from "../../assets/MainServices/coperpiping.jpg";
 import gasStove from "../../assets/MainServices/gas.webp";
 import gasgeyser from "../../assets/MainServices/gasgeyser.webp";
 import microoven from "../../assets/MainServices/microoven.jpg";
-import refregirater from "../../assets/MainServices/refregirater.jpg";
+import refregirater from "../../assets/MainServices/refregirator.jpg";
 import washingmachine from "../../assets/MainServices/washingmachine.jpg";
 import waterPurifier from "../../assets/MainServices/water.webp";
 import waterHeater from "../../assets/MainServices/waterHeater.jpg";
-import corecutting from "../../assets/MainServices/AC.webp";
+import corecutting from "../../assets/MainServices/corecutting.webp";
 import { useInView } from "react-intersection-observer";
 
 const services = [
@@ -180,7 +180,7 @@ const MainServices = () => {
                     index % 2 === 0 ? "text-red-500" : "text-indigo-600"
                   }`}
                 >
-                  {service.title}
+                  {service.title} Services
                 </h2>
                 <ul className="text-base md:text-lg space-y-2">
                   {service.description.map((point, idx) => (

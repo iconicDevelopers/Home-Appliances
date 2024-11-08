@@ -21,12 +21,11 @@ const Footer = () => {
               rel="noopener noreferrer"
               className="flex items-center"
             >
-              <FaMapMarkerAlt className="text-orange-500 mr-2" size={40} />
+              <FaMapMarkerAlt className="text-orange-500 mr-2" size={30} />
 
               <span className="hover:text-orange-500">
-                {" "}
-                Dharani Enterprises #113, 2nd Floor, Byanna Garden,
-                Lingarajapuram, St. Thomas Town post, Bangalore-560084
+                No 113, Byanna Garden, Lingarajapuram, St. Thomas Town post,
+                Bangalore-560084
               </span>
             </a>
           </p>
@@ -37,7 +36,6 @@ const Footer = () => {
             >
               <FaEnvelope className="text-orange-500 mr-3" />
               <span className="hover:text-orange-500">
-                {" "}
                 dharanienterprises.blr@gmail.com
               </span>
             </a>
@@ -70,14 +68,14 @@ const Footer = () => {
             >
               <FaInstagram size={24} />
             </a>
-            <a
+            {/* <a
               href="https://www.twitter.com/yourprofile"
               target="_blank"
               rel="noopener noreferrer"
               className="text-gray-200 hover:text-orange-500 transition"
             >
               <FaTwitter size={24} />
-            </a>
+            </a> */}
           </div>
         </div>
 

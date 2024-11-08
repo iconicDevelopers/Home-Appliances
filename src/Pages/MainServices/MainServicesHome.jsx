@@ -1,4 +1,5 @@
 import service from "../../assets/service.jpg";
+import WhatsApp from "../../Components/WhatsApp";
 import MainServices from "./MainServices";
 
 const MainServicesHome = () => {
@@ -24,6 +25,7 @@ const MainServicesHome = () => {
       </div>
 
       <MainServices />
+      <WhatsApp />
     </>
   );
 };
