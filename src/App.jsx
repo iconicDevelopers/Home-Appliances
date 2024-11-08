@@ -5,12 +5,12 @@ import AboutUs from "./Pages/AboutUs/AboutUs";
 import Footer from "./Pages/Footer/Footer";
 import ChooseUs from "./Pages/AboutUs/ChooseUs";
 import MainServicesHome from "./Pages/MainServices/MainServicesHome";
-import NavBar from "./Components/Navbar";
+import Navbar from "./Components/Navbar";
 
 function App() {
   return (
     <>
-      <NavBar />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/services" element={<MainServicesHome />} />
