@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { FaUsers, FaRegCalendarAlt, FaProjectDiagram } from "react-icons/fa";
 
 const Counter = ({ target, duration }) => {

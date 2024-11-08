@@ -1,4 +1,3 @@
-import React from "react";
 import { FaTools, FaShieldAlt, FaThumbsUp, FaClock } from "react-icons/fa";
 
 const ChooseUs = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import { FaTools } from "react-icons/fa";
 import Ac from "../../assets/MainServices/AC.webp";
 import cctv from "../../assets/MainServices/cctv.jpg";
