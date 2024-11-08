@@ -1,6 +1,6 @@
 // AboutUs.jsx
 import about1 from "../../assets/about.jpg";
-import Experience from "./Experience";
+import Experience from "./Experience.jsx";
 
 const AboutUs = () => {
   return (

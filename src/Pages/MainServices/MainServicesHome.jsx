@@ -1,6 +1,6 @@
 import service from "../../assets/service.jpg";
-import WhatsApp from "../../Components/WhatsApp";
-import MainServices from "./MainServices";
+import WhatsApp from "../../Components/WhatsApp.jsx";
+import MainServices from "./MainServices.jsx";
 
 const MainServicesHome = () => {
   return (

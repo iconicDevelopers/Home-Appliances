@@ -1,9 +1,9 @@
 
 import homeImage from "../../assets/home1.jpg";
-import WhatsApp from "../../Components/WhatsApp";
-import AboutUs from "../AboutUs/AboutUs";
-import ChooseUs from "../AboutUs/ChooseUs";
-import Services from "../Services/Services";
+import WhatsApp from "../../Components/WhatsApp.jsx";
+import AboutUs from "../AboutUs/AboutUs.jsx";
+import ChooseUs from "../AboutUs/ChooseUs.jsx";
+import Services from "../Services/Services.jsx";
 
 const Home = () => {
   return (
